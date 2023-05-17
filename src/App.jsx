@@ -1,4 +1,6 @@
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import Button from './components/Button';
+import { useNavigate } from 'react-router';
 
 export default function App() {
   const [text, count] = useTypewriter({
@@ -6,6 +8,8 @@ export default function App() {
     loop: true,
     delaySpeed: 2000
   })
+  const navigate = useNavigate();
+
   return (
     <div className="background">
       <div className="h-screen flex flex-col justify-center items-center mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
@@ -23,9 +27,9 @@ export default function App() {
             <Cursor cursorColor='#F7AB0A' />
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a href="/main" className="rounded-xl px-2 py-1.5 sm:px-3.5 sm:py-2.5 ring-1 ring-gray-900/10 hover:ring-gray-700 text-sm font-semibold leading-6 text-gray-900">
+            <p onClick={() => navigate('/main')} className="rounded-xl px-2 py-1.5 sm:px-3.5 sm:py-2.5 ring-1 ring-gray-900/10 hover:ring-gray-700 text-sm font-semibold leading-6 text-gray-900">
               Learn more <span aria-hidden="true">→</span>
-            </a>
+            </p>
           </div>
         </div>
       </div>

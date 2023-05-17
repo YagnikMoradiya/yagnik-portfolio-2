@@ -7,6 +7,7 @@ import Project from './components/Project'
 import Education from './components/Education'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import { useNavigate } from 'react-router'
 
 const navigation = [
   'About',
@@ -19,10 +20,12 @@ const navigation = [
 
 export default function Hero() {
   const [selected, setSelected] = useState("About")
+  const navigate = useNavigate();
+
   return (
     // max-h-screen overflow-hidden
-    <div className="bg-white mx-auto max-w-screen-2xl min-h-screen flex flex-col">
-      <Header navigation={navigation} selected={selected} setSelected={setSelected} />
+    <div className="bg-white mx-auto max-w-screen-2xl min-h-screen flex flex-col background">
+      <Header navigation={navigation} selected={selected} setSelected={setSelected} toggleTheme={() => navigate('/')} />
       {/* max-h-screen overflow-scroll */}
       <div className='sm:mx-auto max-w-6xl py-16 sm:py-18 lg:py-20 flex-1'>
         {selected == 'About' && <About handleExperience={() => setSelected("Work Experience")} />}

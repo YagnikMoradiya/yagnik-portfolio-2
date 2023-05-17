@@ -11,9 +11,10 @@ function Header({ navigation, selected, setSelected, toggleTheme }) {
             <nav className="flex items-center justify-between p-4 lg:px-6" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <div onClick={toggleTheme} className='cursor-pointer'>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
-                        </svg>
+                        </svg> */}
+                        <img src="favicon-32x32.png" alt="" />
                     </div>
                 </div>
                 <div className="flex lg:hidden">
@@ -64,7 +65,7 @@ function Header({ navigation, selected, setSelected, toggleTheme }) {
                                 {navigation.map((item, i) => (
                                     <p
                                         key={i}
-                                        onClick={() => {setSelected(item); setMobileMenuOpen(false)}}
+                                        onClick={() => { setSelected(item); setMobileMenuOpen(false) }}
                                         className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                     >
                                         {item}
