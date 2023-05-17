@@ -7,7 +7,7 @@ export default function App() {
     delaySpeed: 2000
   })
   return (
-    <div className="background">
+    <div className="background dark:bg-black">
       <div className="h-screen flex flex-col justify-center items-center mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div className="mb-8 flex justify-center">
           <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">

@@ -11,11 +11,11 @@ const SKILLS = [
 
 function Skill() {
     return (
-        <div className='px-4 py-7 sm:p-7 text-base sm:text-lg'>
+        <div className='px-4 py-7 sm:p-7 text-base sm:text-lg text-gray-900 dark:text-gray-100'>
             {SKILLS.map((item) => (
                 <SkillText key={item.id} name={item.name} desc={item.desc} />
             ))}
-            <hr className='opacity-25 border-0 my-4 bg-gray-700 h-[2px]' />
+            <hr className='opacity-25 border-0 my-4 bg-gray-700 dark:bg-gray-100 h-[2px]' />
         </div>
     )
 }

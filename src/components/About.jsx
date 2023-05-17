@@ -1,17 +1,17 @@
 import React from 'react'
 import Button from './Button'
 
-function About({handleExperience}) {
+function About({ handleExperience }) {
     return (
         <div className='px-4 py-7 sm:p-7'>
-            <h1 className="text-2xl tracking-tight text-gray-900 sm:text-4xl">
+            <h1 className="text-2xl tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
                 HI 👋, I'm <span className='font-bold'>Yagnik Moradiya.</span>
             </h1>
             <div className="text-xl tracking-tight text-pink-600 sm:text-2xl leading-loose">
                 Software Engineer | Javascript
             </div>
             <div className='px-4 sm:p-7'>
-                <ul className='px-6 text-gray-900 text-lg sm:text-xl list-disc'>
+                <ul className='px-6 text-gray-900 dark:text-gray-50 text-lg sm:text-xl list-disc'>
                     <li>I am working at{' '}
                         <a href="https://www.crestdatasys.com/" target="_blank" className="highlights">Crest Data Systems</a>
                         {' '}as a <span className='font-bold'>Software Developer Engineer.</span>
@@ -26,7 +26,9 @@ function About({handleExperience}) {
                     <li>I keep things simple and 💻 technology attracts me a lot.</li>
                 </ul>
                 <div className='md:flex md:space-x-4 my-3 '>
-                    <Button name="Resume" />
+                    <a href="./Yagnik-Resume.pdf" download target='_blank'>
+                        <Button name="Resume" />
+                    </a>
                     <Button name="Experience" onClick={handleExperience} />
                 </div>
 

@@ -2,7 +2,7 @@ import { FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa"
 
 function Education() {
     return (
-        <div className='px-4 py-7 sm:p-7 text-base sm:text-lg text-gray-900'>
+        <div className='px-4 py-7 sm:p-7 text-base sm:text-lg text-gray-900 dark:text-gray-100'>
             <div>
                 <div>
                     <a href="https://www.charusat.ac.in/" target='_blank' className="highlights">Charotar University of Science and Technology</a>
@@ -21,7 +21,7 @@ function Education() {
                     Software Engineering, Object-Oriented Software Engineering, Operating Systems,
                     Database Management Systems, UNIX, Basics of Computer Architecture.</div>
             </div>
-            <hr className='opacity-25 border-0 my-4 bg-gray-700 h-[1px]' />
+            <hr className='opacity-25 border-0 my-4 bg-gray-700 dark:bg-gray-100 h-[1px]' />
 
             <div>
                 <div>
@@ -34,17 +34,17 @@ function Education() {
                     <p> Surat </p>
                 </div>
                 <div className='pt-2'>
-                    <span className='font-bold'>12th (Science) - GSHEB</span>
+                    <span className='font-bold'>12th (Science) - GSHEB </span>
                     | March 2019
                 </div>
                 <div>Percentage : 88 % <br /> (Physics, Chemistry, Maths) </div>
                 <div className='pt-2'>
-                    <span className='font-bold'>10th (SSC) - GSHEB</span>
+                    <span className='font-bold'>10th (SSC) - GSHEB </span>
                     | March 2017
                 </div>
                 <div> Percentage : 87 %  </div>
             </div>
-            <hr className='opacity-25 border-0 my-4 bg-gray-700 h-[1px]' />
+            <hr className='opacity-25 border-0 my-4 bg-gray-700 dark:bg-gray-100 h-[1px]' />
         </div>
     )
 }

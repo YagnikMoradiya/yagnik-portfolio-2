@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 
 function Footer() {
     return (
-        <footer className='flex items-center justify-between p-4 lg:px-6 '>
+        <footer className='flex items-center justify-between p-4 lg:px-6 text-gray-900 dark:text-gray-100 '>
             <div>
                 ©
                 <span> {new Date().getFullYear()}</span>
