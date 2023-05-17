@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Button'
 
-function About({handleExperience}) {
+function About({ handleExperience }) {
     return (
         <div className='px-4 py-7 sm:p-7'>
             <h1 className="text-2xl tracking-tight text-gray-900 sm:text-4xl">
@@ -26,7 +26,9 @@ function About({handleExperience}) {
                     <li>I keep things simple and 💻 technology attracts me a lot.</li>
                 </ul>
                 <div className='md:flex md:space-x-4 my-3 '>
-                    <Button name="Resume" />
+                    <a href="./Yagnik-Resume.pdf" download target='_blank'>
+                        <Button name="Resume" />
+                    </a>
                     <Button name="Experience" onClick={handleExperience} />
                 </div>
 
