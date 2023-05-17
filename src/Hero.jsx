@@ -24,7 +24,7 @@ export default function Hero() {
     <div className="bg-white mx-auto max-w-screen-2xl min-h-screen flex flex-col">
       <Header navigation={navigation} selected={selected} setSelected={setSelected} />
       {/* max-h-screen overflow-scroll */}
-      <div className='mx-auto max-w-6xl py-16 sm:py-18 lg:py-20 flex-1'>
+      <div className='sm:mx-auto max-w-6xl py-16 sm:py-18 lg:py-20 flex-1'>
         {selected == 'About' && <About handleExperience={() => setSelected("Work Experience")} />}
         {selected == 'Work Experience' && <Experience />}
         {selected == 'Skills' && <Skill />}

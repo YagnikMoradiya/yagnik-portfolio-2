@@ -10,7 +10,7 @@ function Experience() {
                 </div>
                 <div className="px-2">
                     {/* Crest */}
-                    <div>
+                    {/* <div> */}
                         <div>
                             <span>
                                 <span className="font-semibold">SDE Intern </span>
@@ -45,7 +45,7 @@ function Experience() {
                                 <li>Utilized FastAPI, a modern Python web framework, to develop a scalable and high-performance backend application for a Book Store project.</li>
                                 <li>Containerized the Book Store backend application using Docker, facilitating easy deployment and management across different environments.</li>
                             </ul>
-                        </div>
+                        {/* </div> */}
                     </div>
                 </div>
             </div>
