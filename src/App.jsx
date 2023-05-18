@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router';
 
 export default function App() {
   const [text, count] = useTypewriter({
-    words: ["Thinks with both brain. 🧠", "Laugh in serious situtations. 😀", "Guy-who-loves-Coffee.tsx ☕", "<ButLovesToCodeMore  />"],
+    words: ["Thinks with both brain. 🧠", "Laugh in serious situations. 😀", "Guy-who-loves-Coffee.tsx ☕", "<ButLovesToCodeMore  />"],
     loop: true,
     delaySpeed: 2000
   })

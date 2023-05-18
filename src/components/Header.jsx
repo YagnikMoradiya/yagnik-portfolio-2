@@ -37,7 +37,7 @@ function Header({ navigation, selected, setSelected, toggleTheme }) {
             </nav>
             <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                 <div className="fixed inset-0 z-50" />
-                <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6">
+                <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto background px-6 py-6">
                     <div className="flex items-center justify-between">
                         {/* <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
@@ -47,9 +47,10 @@ function Header({ navigation, selected, setSelected, toggleTheme }) {
                                 alt=""
                             />
                         </a> */}
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
-                        </svg>
+                        </svg> */}
+                        <img src="favicon-32x32.png" alt="" />
                         <button
                             type="button"
                             className="-m-2.5 rounded-md p-2.5 text-gray-700"
