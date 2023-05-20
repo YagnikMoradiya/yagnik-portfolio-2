@@ -14,14 +14,14 @@ function About({ handleExperience }) {
                 <ul className='px-6 text-gray-900 text-lg sm:text-xl list-disc'>
                     <li>I am working at{' '}
                         <a href="https://www.crestdatasys.com/" target="_blank" className="highlights">Crest Data Systems</a>
-                        {' '}as a <span className='font-bold'>Software Developer Engineer.</span>
+                        {' '}as a <span className='font-bold'>Software Engineer.</span>
                     </li>
-                    <li>I have pursued B.Tech in Computer Engineering from{' '}
+                    <li>I have pursued B.Tech in Information Technology from{' '}
                         <a href="" target="_blank" className="highlights">CHARUSAT University</a>{' '}
                         (2019-2023).
                     </li>
                     <li>I have a good grasp of Data-structure & Algorithms, C++, Python and Javascript.</li>
-                    <li>Also, I have a basic knowledge of web development, created projects based on the MEAN Stack, Javascript, Bootstrap</li>
+                    <li>Also, I have a good knowledge of backend development, created projects based on the MERN Stack and React Native.</li>
                     <li>In my free time, I enjoy ❤️ problem-solving (DSA), listening to music 🎵 and sometimes read a book 📕.</li>
                     <li>I keep things simple and 💻 technology attracts me a lot.</li>
                 </ul>
