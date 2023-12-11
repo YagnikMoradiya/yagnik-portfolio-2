@@ -10,7 +10,45 @@ function Experience() {
                 </div>
                 <div className="px-2">
                     {/* Crest */}
-                    {/* <div> */}
+                    <div>
+                        <div>
+                            <span>
+                                <span className="font-semibold">SDE-1 </span>
+                            </span>
+                            -{" "}
+                            <span>
+                                <a href="" className="highlights font-normal">Crest Data Systems</a>
+                            </span>
+                        </div>
+
+                        <div className='text-sm sm:text-base flex items-center space-x-2'>
+                            <FaCalendarAlt />
+                            <p> June 2023 - Present </p>
+                            <FaMapMarkerAlt />
+                            <p> Ahmedabad </p>
+                        </div>
+
+                        <div>
+                            <SkillBox name="Python" />
+                            <SkillBox name="PLY" />
+                            <SkillBox name="FastApi" />
+                            <SkillBox name="MongoDB" />
+                            <SkillBox name="Celery" />
+                        </div>
+
+                        <div className='p-2 sm:p-3'>
+                            <ul className='px-4 text-gray-900 text-sm sm:text-base list-disc'>
+                                <li>Actively contributing to Crest Data Systems' enterprise tool development team, playing a vital role in innovation and excellence.</li>
+                                <li>Strengthened the functionality of the <span className='font-bold'>Migration Tool</span> by expanding the capabilities of the <span className='font-bold'>SPL parser</span>, enabling support for a broader range of commands. Demonstrated expertise in parsing and processing data for efficient migration workflows.</li>
+                                <li>Implemented robust background task handling using Celery and FastAPI, ensuring the seamless execution of tasks within the Migration Tool. Utilized industry-standard tools for asynchronous task management, contributing to the tool's performance and reliability.</li>
+                                <li>Successfully integrated multitenancy support into the Migration Tool, enhancing its scalability and flexibility. Implemented solutions to manage multiple tenants within a single instance, showcasing adaptability to diverse user requirements.</li>
+                                <li>Acknowledged by Crest with a <span className='font-bold'>CAP (Crest Achievement Program)</span> award for significant contributions to the Migration Tool. </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <hr className='opacity-25 border-0 my-4 bg-gray-700 h-[2px]' />
+                    <div>
                         <div>
                             <span>
                                 <span className="font-semibold">SDE Intern </span>
@@ -23,7 +61,7 @@ function Experience() {
 
                         <div className='text-sm sm:text-base flex items-center space-x-2'>
                             <FaCalendarAlt />
-                            <p> Dec 2022 - Present </p>
+                            <p> December 2022 - May 2023 </p>
                             <FaMapMarkerAlt />
                             <p> Ahmedabad </p>
                         </div>
@@ -45,12 +83,12 @@ function Experience() {
                                 <li>Utilized FastAPI, a modern Python web framework, to develop a scalable and high-performance backend application for a Book Store project.</li>
                                 <li>Containerized the Book Store backend application using Docker, facilitating easy deployment and management across different environments.</li>
                             </ul>
-                        {/* </div> */}
+                        </div>
                     </div>
                 </div>
             </div>
             <hr className='opacity-25 border-0 my-4 bg-gray-700 h-[2px]' />
-            
+
             <div className="flex">
                 <div className="h-28 w-28 py-2">
                     <img className="bg-blue-500 p-2" src="7seasol.svg" alt="Crest Logo" />
